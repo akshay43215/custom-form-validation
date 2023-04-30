@@ -1,0 +1,132 @@
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    max-width: 800px;
+    width:100%;
+    align-items: center;
+    border: none;
+    background-color: var(--formTheme);
+    border-radius: 15px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px ; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px ;
+    position: absolute;
+    padding: 5px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.left-image {
+    /* background-color: #b7a0a0; */
+    max-width: 350px;
+    width: 60%;
+}
+.left-image img {
+    height: auto;
+    max-width: 80%;
+    border-radius: 10px;
+    
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+/* .middle-bar {
+    background-color: rgba(39, 36, 36,.23);
+    height: -webkit-fill-available;
+    width: 2px;
+    position: relative;
+    left: -15px;
+} */
+.right-form {
+    /* background-color: aquamarine; */
+    max-width: 450px;
+    width: 50%;
+}
+
+.input-section {
+    width: 100%;
+    padding: 3px 50px;
+    /* background-color: orange; */
+}
+.input-section input {
+    background-color: var(--inputCol);
+    height: 30px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    padding: 3px 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid ;
+
+}
+.input-section > label {
+    display: block;
+    text-align: left;
+    color: var(--label);
+}
+
+.gender-group input {
+    margin: 8px;
+    width: 20px;
+    height: 17px;
+    vertical-align: middle;
+    color: green;
+
+}
+.gender-group {
+    /* background-color: #624d4d; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.gender-group > label {
+    display: inline;
+}
+
+.input-section select {
+    height: 35px;
+    width: 100%;
+    background-color:  var(--inputCol);
+    margin-top: 10px;
+    margin-bottom: 16px;
+    /* margin-left: 20px; */
+    border-radius: 5px;
+
+}
+.check-section {
+    width: 100%;
+    padding: 15px 50px;
+    /* padding-right: 10px; */
+    /* background-color: #8a5e5e; */
+}
+.check-section input {
+    margin:0 5px;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+.check-section > label {
+    margin:0 10px;
+}
+ button {
+     height: 40px;
+     font-weight: 600;
+     font-size: inherit;
+     color: var(--buttonClr);
+     background-color: var(--buttonBg);
+     border-radius: 5px;
+     width: 82%;
+     position: relative;
+     left: 40px;
+     margin: 10px 0;
+
+}
+
+button:hover {
+    color: var(--buttonBg) ;
+    background-color: var(--buttonClr);
+    cursor: pointer;
+}

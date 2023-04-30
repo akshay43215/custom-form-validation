@@ -1,0 +1,28 @@
+
+:root {
+  --label:rgb(122, 140, 136);
+  --formTheme:white;
+  --inputCol : rgba(225, 228, 227, 0.53);
+  --pageTheme : rgba(255, 255, 255, 0.919);
+  --buttonBg : rgb(39, 36, 36);
+  --buttonClr : rgb(218, 228, 227);
+  --inputBorder: rgb(82, 182, 189);
+  --danger : rgb(213, 43, 43);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  padding: 0 10px;
+  background-color: var(--pageTheme);
+  /* background-color: rgb(154, 137, 106); */
+}
+
+
+
+
+
